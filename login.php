@@ -5,7 +5,7 @@ $_SESSION["ready"] = "ready";
 $error = "";
 if (isset($_POST["Email"])){
     if (($_POST["Email"] == "a@a.a") and ($_POST["Password"]=="aaa")){
-        header("Location: game.php");
+        header("Location: index.php");
         die();
     } else {
         $error = "Invalid login credentials";
