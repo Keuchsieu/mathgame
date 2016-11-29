@@ -48,7 +48,7 @@ if ($o == 0) {
 echo "<h2 style=\"text-align:center;\">Math Game</h2>";
 echo "<p style=\"text-align:center;\"><b>" . $_SESSION["A"] . $_SESSION["display"] . $_SESSION["B"] . "</b></p>";
 ?>
-<form action="game.php" method="post">
+<form action="index.php" method="post">
     <div style="text-align:center;"><input syle="text" name="answer" placeholder="Enter Answer"/></div>
     <br>
     <div style="text-align:center;"><input type="submit" value="Submit" /></div>
